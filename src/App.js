@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
 import HomeSite from './MarketPage/HomeSite';
-import Aboutus from './MarketPage/Aboutus';
+import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
 import {
   createBrowserRouter,
   RouterProvider,
