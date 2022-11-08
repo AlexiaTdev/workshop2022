@@ -6,6 +6,7 @@ import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
 import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
 import Entreprise from './MarketPage/Entreprise/Entreprise';
+import Particulier from './MarketPage/Particulier/Particulier';
 import {
   createBrowserRouter,
   RouterProvider
@@ -28,6 +29,10 @@ function App() {
     {
       path: "entreprise",
       element: (<Entreprise />),
+    },
+    {
+      path: "particulier",
+      element: (<Particulier />),
     },
     {
       path: "logedUser",
