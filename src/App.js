@@ -1,11 +1,11 @@
 import './App.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
-import HomeSite from './MarketPage/HomeSite'
+import HomeSite from './MarketPage/HomeSite';
+import HomeUser from './App/User/HomeUser';
 import {
   createBrowserRouter,
-  RouterProvider,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 
 function App() {
@@ -20,6 +20,10 @@ function App() {
       path: "about",
       element: <div>About</div>,
     },
+    {
+      path: "logedUser",
+      element: <HomeUser/>,
+    }
   ]);
 
   return (
