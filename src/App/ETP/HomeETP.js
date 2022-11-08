@@ -6,7 +6,7 @@ export default class HomeETP extends PureComponent {
 
   render() {
     return (
-      <div>HomeETP</div>
+        <p>HOME USER</p>
     )
   }
 }
