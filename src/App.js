@@ -20,19 +20,19 @@ function App() {
       element: (<HomeSite />),
     },
     {
-      path: "aboutus",
+      path: "Aboutus",
       element: (<Aboutus />),
     },
     {
-      path: "service",
+      path: "Service",
       element: (<Service />),
     },
     {
-      path: "entreprise",
+      path: "Entreprise",
       element: (<Entreprise />),
     },
     {
-      path: "particulier",
+      path: "Particulier",
       element: (<Particulier />),
     },
     {
