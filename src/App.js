@@ -3,6 +3,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import HomeSite from './MarketPage/HomeSite';
 import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
+import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
 import {
   createBrowserRouter,
@@ -18,6 +19,10 @@ function App() {
     {
       path: "about",
       element: (<Aboutus />),
+    },
+    {
+      path: "service",
+      element: (<Service />),
     },
     {
       path: "logedUser",

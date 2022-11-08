@@ -10,6 +10,7 @@ export default class HomeSite extends PureComponent {
         <div>
             <h1>Hello World</h1>
             <Link to="about">About Us</Link>
+            <Link to="service">Service</Link>
         </div>
     )
   }
