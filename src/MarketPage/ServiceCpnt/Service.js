@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react'
 import { Link } from "react-router-dom";
 import './service.css';
 
-export class service extends PureComponent {
+export class Service extends PureComponent {
   static propTypes = {}
 
   render() {
@@ -19,4 +19,4 @@ export class service extends PureComponent {
   }
 }
 
-export default service
+export default Service
