@@ -3,10 +3,10 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import HomeSite from './MarketPage/HomeSite';
 import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
+import HomeUser from './App/User/HomeUser';
 import {
   createBrowserRouter,
-  RouterProvider,
-  Link,
+  RouterProvider
 } from "react-router-dom";
 
 function App() {
@@ -19,6 +19,10 @@ function App() {
       path: "about",
       element: (<Aboutus />),
     },
+    {
+      path: "logedUser",
+      element: <HomeUser/>,
+    }
   ]);
 
   return (
