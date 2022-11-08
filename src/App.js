@@ -19,7 +19,7 @@ function App() {
       element: (<HomeSite />),
     },
     {
-      path: "about",
+      path: "aboutus",
       element: (<Aboutus />),
     },
     {
