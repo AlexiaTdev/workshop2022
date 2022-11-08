@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './aboutus.css';
 
 export class aboutus extends PureComponent {
@@ -8,10 +8,13 @@ export class aboutus extends PureComponent {
 
   render() {
     return (
-        <div className="aboutus-p">
-            <div className="link-home"><Link to="/">Home</Link></div>
-            <div className="title-about">À propos de nous</div>
-        </div>
+      <div className="aboutus-p">
+        <nav>
+          <div className="link-home"><Link to="/">Home</Link></div>
+        </nav>
+
+        <div className="title-about">À propos de nous</div>
+      </div>
     )
   }
 }
