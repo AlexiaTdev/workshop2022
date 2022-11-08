@@ -7,6 +7,7 @@ import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
 import Entreprise from './MarketPage/Entreprise/Entreprise';
 import Particulier from './MarketPage/Particulier/Particulier';
+import HomeApp from './App/homeApp';
 import {
   createBrowserRouter,
   RouterProvider
@@ -36,7 +37,7 @@ function App() {
     },
     {
       path: "logedUser",
-      element: <HomeUser/>,
+      element: <HomeApp/>,
     }
   ]);
 
