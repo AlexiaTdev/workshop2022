@@ -6,7 +6,8 @@ export default class HomeUser extends PureComponent {
 
   render() {
     return (
-      <div>HomeUser</div>
+        <></>
+
     )
   }
 }
