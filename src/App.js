@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
+import HomeSite from './MarketPage/HomeSite'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,10 +13,7 @@ function App() {
     {
       path: "/",
       element: (
-        <div>
-          <h1>Hello World</h1>
-          <Link to="about">About Us</Link>
-        </div>
+        <HomeSite/>
       ),
     },
     {
