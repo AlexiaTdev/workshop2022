@@ -5,6 +5,7 @@ import HomeSite from './MarketPage/HomeSite';
 import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
 import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
+import Entreprise from './MarketPage/Entreprise/Entreprise';
 import {
   createBrowserRouter,
   RouterProvider
@@ -23,6 +24,10 @@ function App() {
     {
       path: "service",
       element: (<Service />),
+    },
+    {
+      path: "entreprise",
+      element: (<Entreprise />),
     },
     {
       path: "logedUser",
