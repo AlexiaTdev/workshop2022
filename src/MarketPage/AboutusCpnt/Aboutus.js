@@ -7,6 +7,13 @@ import Navbar from '../NavbarCpnt/Navbar';
 export class Aboutus extends PureComponent {
   static propTypes = {}
 
+  async componentDidMount() {
+    // GET request using fetch with async/await
+    const response = await fetch('http://www.ecochauffage.guitteny.net:3000/swagger');
+    const data = await response.json();
+    this.setState({ totalReactPackages: data.total })
+  };
+
   render() {
     return (
       <div className="aboutus-p">
