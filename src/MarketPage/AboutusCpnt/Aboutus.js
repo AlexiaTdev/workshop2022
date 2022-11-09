@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import React, { PureComponent, useState, useEffect } from 'react'
+import React, { PureComponent } from 'react'
 import { Link } from "react-router-dom";
 import './aboutus.css';
 import Navbar from '../NavbarCpnt/Navbar';
@@ -7,7 +7,10 @@ import Navbar from '../NavbarCpnt/Navbar';
 export class Aboutus extends PureComponent {
   static propTypes = {}
 
-  
+  // const[count, setCount] = useState(0);
+  // useEffect(() => {
+  //   componentDidMount();
+  // }, []);
 
   async componentDidMount() {
   // GET request using fetch with async/await
@@ -44,10 +47,6 @@ export class Aboutus extends PureComponent {
 };
 
 render() {
-  const[count, setCount] = useState(0);
-  useEffect(() => {
-    componentDidMount();
-  }, []);
   return (
     <div className="aboutus-p">
       <Navbar />
