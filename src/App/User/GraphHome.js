@@ -6,8 +6,6 @@ import KPIListUser from './component/KPIListUser'
 
 export default class GraphHome extends Component {
 
-    
-
   render() {
     return (
         <div style={{margin:'100, 0, 10, 0'}}>
