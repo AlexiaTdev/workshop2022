@@ -1,0 +1,13 @@
+.bgc {
+    z-index: 0;
+    position: absolute;
+    background-color: rgba(33, 37, 41);
+    padding-left: 50em;
+    padding-right: 50em;
+    padding-bottom: 20em;
+    
+}
+.carousel-p {
+    margin-right: 25em;
+    margin-left: 25em;
+}
