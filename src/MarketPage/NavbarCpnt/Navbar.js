@@ -1,23 +1,39 @@
 import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 
-export class Navbar extends PureComponent {
+
+export class NavbarCpnt extends PureComponent {
   static propTypes = {}
 
   render() {
     return (
-      <div className="navbar-p">
-        <nav>
-          <div className="link-home"><Link to="/aboutus">About us</Link></div>
-          <div className="link-home"><Link to="/Service">Service</Link></div>
-          <div className="link-home"><Link to="/Entreprise">Entreprise</Link></div>
-          <div className="link-home"><Link to="/Particulier">Particulier</Link></div>       
-        </nav>
-      </div>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/Aboutus">À propose de nous</Nav.Link>
+              <Nav.Link href="/Service">Service</Nav.Link>
+              <Nav.Link href="/Entreprise">Entreprise</Nav.Link>
+              <Nav.Link href="/Particulier">Particulier</Nav.Link>
+            </Nav>
+            <Nav>
+              <Nav.Link href="">S'inscrire</Nav.Link>
+              <Nav.Link href="">Se connecter</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     )
   }
 }
 
-export default Navbar
+export default NavbarCpnt
