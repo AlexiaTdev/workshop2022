@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React, { PureComponent } from 'react'
 import { Link } from "react-router-dom";
 import './service.css';
+import Navbar from '../NavbarCpnt/Navbar';
 
 export class Service extends PureComponent {
   static propTypes = {}
@@ -9,10 +10,7 @@ export class Service extends PureComponent {
   render() {
     return (
       <div className="service-p">
-        <nav>
-          <div className="link-home"><Link to="/">Home</Link></div>
-        </nav>
-
+        <Navbar />
         <div className="title-service">service</div>
       </div>
     )

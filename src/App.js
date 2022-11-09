@@ -5,8 +5,8 @@ import HomeSite from './MarketPage/HomeSite';
 import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
 import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
-import Entreprise from './MarketPage/Entreprise/Entreprise';
-import Particulier from './MarketPage/Particulier/Particulier';
+import Entreprise from './MarketPage/EntrepriseCpnt/Entreprise';
+import Particulier from './MarketPage/ParticulierCpnt/Particulier';
 import HomeApp from './App/homeApp';
 import {
   createBrowserRouter,
