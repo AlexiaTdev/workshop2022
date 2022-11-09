@@ -8,9 +8,10 @@ export class Aboutus extends PureComponent {
   static propTypes = {}
 
   async componentDidMount() {
-    console.log('-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+    console.log('componentDidMount')
     // GET request using fetch with async/await
-    const response = await fetch('http://localhost:3000/api/user');
+    console.log("-------------------------------------------------------------------------------------------------------------------------------------------------------")
+    const response = await fetch('https://www.ecochauffage.guitteny.net:3000/api/user', {mode:'cors'});
     const data = await response.json();
     this.setState({ totalReactPackages: data.total })
     console.log("ICIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
