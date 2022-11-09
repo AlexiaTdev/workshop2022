@@ -8,10 +8,13 @@ export class Aboutus extends PureComponent {
   static propTypes = {}
 
   async componentDidMount() {
+    console.log('-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
     // GET request using fetch with async/await
-    const response = await fetch('https://www.ecochauffage.guitteny.net:3000/api/user');
+    const response = await fetch('http://localhost:3000/api/user');
     const data = await response.json();
     this.setState({ totalReactPackages: data.total })
+    console.log("ICIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
+    console.log(data);
   };
 
   render() {
