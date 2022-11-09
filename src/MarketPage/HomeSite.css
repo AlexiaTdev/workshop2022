@@ -2,12 +2,13 @@
     z-index: 0;
     position: absolute;
     background-color: rgba(33, 37, 41);
-    padding-left: 50em;
-    padding-right: 50em;
-    padding-bottom: 20em;
+    padding-left: 50vw;
+    padding-right: 50vw;
+    padding-bottom: 30vh;
     
 }
 .carousel-p {
-    margin-right: 25em;
-    margin-left: 25em;
+    margin-top: 10vh;
+    margin-right: 40em;
+    margin-left: 40em;
 }
