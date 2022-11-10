@@ -24,6 +24,7 @@ export class NavbarCpnt extends PureComponent {
               <Nav.Link href="/Service">Service</Nav.Link>
               <Nav.Link href="/Entreprise">Entreprise</Nav.Link>
               <Nav.Link href="/Particulier">Particulier</Nav.Link>
+              <Nav.Link href="/Monitoring">Monitoring</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="">S'inscrire</Nav.Link>

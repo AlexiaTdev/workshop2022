@@ -5,9 +5,8 @@ import HomeSite from './MarketPage/HomeSite';
 import Aboutus from './MarketPage/AboutusCpnt/Aboutus';
 import Service from './MarketPage/ServiceCpnt/Service';
 import HomeUser from './App/User/HomeUser';
-import Entreprise from './MarketPage/EntrepriseCpnt/Entreprise';
-import Particulier from './MarketPage/ParticulierCpnt/Particulier';
-import Monitoring from './Monitoring/App/homeApp';
+import Entreprise from './MarketPage/Entreprise/Entreprise';
+import Particulier from './MarketPage/Particulier/Particulier';
 import HomeApp from './App/homeApp';
 import {
   createBrowserRouter,
@@ -21,24 +20,24 @@ function App() {
       element: (<HomeSite />),
     },
     {
-      path: "Aboutus",
+      path: "aboutus",
       element: (<Aboutus />),
     },
     {
-      path: "Service",
+      path: "service",
       element: (<Service />),
     },
     {
-      path: "Entreprise",
+      path: "entreprise",
       element: (<Entreprise />),
     },
     {
-      path: "Particulier",
+      path: "particulier",
       element: (<Particulier />),
     },
     {
-      path: "Monitoring",
-      element: (<Monitoring />),
+      path: "logedUser",
+      element: <HomeApp/>,
     }
   ]);
 
