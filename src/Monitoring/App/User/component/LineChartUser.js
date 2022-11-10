@@ -30,7 +30,7 @@ import {
       },
       title: {
         display: true,
-        text: 'Consommation par heure',
+        text: 'Consommation moyenne par jour',
       },
     },
   };
@@ -42,13 +42,13 @@ import {
     datasets: [
       {
         label: 'Kwh * €',
-        data: [1,2,3],
+        data: [3,2,1.8,1.6,0.7,0.3,0],
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },
       {
         label: 'kwh * € * %',
-        data: [0.1,0.2,0.3],
+        data: [0.3,0.2,0.18,0.16,0.07,0.03,0],
         borderColor: 'rgb(53, 162, 235)',
         backgroundColor: 'rgba(53, 162, 235, 0.5)',
       },

@@ -30,19 +30,19 @@ import {
       },
       title: {
         display: true,
-        text: 'Température moyenne par heure',
+        text: 'Température moyenne par jour',
       },
     },
   };
   
-  const labels = [];
+  const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   
   export const data = {
     labels,
     datasets: [
       {
         label: 'Température',
-        data: [30, 40, 50],
+        data: [60, 50, 48, 30, 28 ,25, 22],
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       }
@@ -80,11 +80,6 @@ export class LineChartUser2 extends Component {
             <div className="App">
                 <Line options={options} data={data} />
             </div>
-            <ul>
-            {this.res.map((result) => (
-                    <li key={result.temp}>{result.temp}</li>
-                ))}
-            </ul>
         </>
 
     )
