@@ -12,7 +12,7 @@ export default class HomeSite extends PureComponent {
     return (
       <div>
         <Navbar />
-        <div className="bgc mx-auto"/>
+        <div className="bgc mx-auto" />
         <div className="carousel-p">
           <Carousel fade>
             <Carousel.Item>
@@ -53,6 +53,13 @@ export default class HomeSite extends PureComponent {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div className="div-h4-p"> 
+          <h4>Aujourd’hui nous faisons face à une crise énergétique mondiale, dont l'Europe
+            se trouve fortement impactée à la suite de l’intensification du conflit opposant
+            Ukraine et la Russie. Les prix du gaz ne cessent d’augmenter en réponse d’une baisse de
+            l’offre suite à l'arrêt des exportations de la Russie.
+          </h4>
         </div>
       </div>
     )

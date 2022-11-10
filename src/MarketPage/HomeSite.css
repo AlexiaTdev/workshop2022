@@ -9,6 +9,13 @@
 }
 .carousel-p {
     margin-top: 10vh;
-    margin-right: 40em;
-    margin-left: 40em;
+    margin-right: 25vw;
+    margin-left: 25vw;
+}
+
+.div-h4-p {
+    padding-top:10vh;
+    padding-left: 25vw;
+    width: 70em;
+    padding-bottom: 10vh;
 }
