@@ -1,3 +1,28 @@
-/* .service-p {
-    text-align: center;
-} */
+.ecolo-img {
+    margin-top: 10vh;
+    margin-right: 60vw;
+    margin-left: 15vw;
+    width: 25vw;
+    height: 30vh;
+    z-index: 2;
+    object-fit: cover;
+    position: absolute;
+}
+
+.econo-img {
+    margin-top: 10vh;
+    margin-right: 15vw;
+    margin-left: 60vw;
+    width: 25vw;
+    height: 30vh;
+    z-index: 2;
+    object-fit: cover;
+    position: absolute;
+}
+
+.service-text {
+    margin-top: 50vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    text-align: justify;
+}
