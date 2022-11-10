@@ -21,9 +21,9 @@ export default class HomeSite extends PureComponent {
                 src="https://qalway.com/_nuxt/img/QH1_1.5365643.jpg"
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <Carousel.Caption className="slide-style">
+                <h3>Écochauffage</h3>
+                <p>Chauffage écologique et économique</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,9 +33,9 @@ export default class HomeSite extends PureComponent {
                 alt="Second slide"
               />
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Carousel.Caption className="slide-style">
+                <h3>Écochauffage</h3>
+                <p>Le serveur qui remplace votre chaudière</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,16 +45,14 @@ export default class HomeSite extends PureComponent {
                 alt="Third slide"
               />
 
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
+              <Carousel.Caption className="slide-style">
+                <h3>Écochauffage</h3>
+                <p>S'acclimate à votre habitat facilement</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="div-h4-p"> 
+        <div className="div-h4-p">
           <h4>Aujourd’hui nous faisons face à une crise énergétique mondiale, dont l'Europe
             se trouve fortement impactée à la suite de l’intensification du conflit opposant
             Ukraine et la Russie. Les prix du gaz ne cessent d’augmenter en réponse d’une baisse de
