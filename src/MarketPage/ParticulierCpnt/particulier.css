@@ -1,6 +1,27 @@
 .div-h4-p {
-    padding-top:10vh;
-    padding-left: 25vw;
-    width: 70em;
-    padding-bottom: 10vh;
+    margin-top: 50vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    width: 50vw;
+    text-align: justify;
+    padding: 0 0 0 0;
+}
+
+.img-p{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 10vh;
+    width: 35vw;
+    height: 35vh;
+    position: absolute;
+}
+
+.bgc {
+    z-index: 0;
+    position: absolute;
+    background-color: rgba(33, 37, 41);
+    padding-left: 50vw;
+    padding-right: 50vw;
+    padding-bottom: 30vh;
+    
 }
