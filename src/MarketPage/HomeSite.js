@@ -55,9 +55,13 @@ export default class HomeSite extends PureComponent {
         <div className="div-h4-p">
           <h4>Aujourd’hui nous faisons face à une crise énergétique mondiale, dont l'Europe
             se trouve fortement impactée à la suite de l’intensification du conflit opposant
-            Ukraine et la Russie. Les prix du gaz ne cessent d’augmenter en réponse d’une baisse de
+            Ukraine et la Russie.
+          </h4>
+          <h4>Les prix du gaz ne cessent d’augmenter en réponse d’une baisse de
             l’offre suite à l'arrêt des exportations de la Russie.
           </h4>
+          <h4>Depuis des décennies, l’Europe mène des recherches sur la transition 
+            énergétique pour s’assurer de devenir plus autonome.</h4>
         </div>
       </div>
     )
