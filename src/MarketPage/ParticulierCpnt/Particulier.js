@@ -13,7 +13,7 @@ export class Particulier extends PureComponent {
         <Navbar />
         <div className="bgc mx-auto" />
         <img className="img-p rounded" src="https://actifsas.com/wp-content/uploads/2020/02/slide-economie-ecologie.jpg"/>
-        <h4 className="div-h4-p">
+        <h4 className="div-h4-pa">
           Notre idée est de proposer la location et l’installation de serveurs chauffage, se
           substituant aux radiateurs électriques classiques ou chauffages au gaz.
           Notre originalité réside dans son coût… vous ne payez que 10% du coût de

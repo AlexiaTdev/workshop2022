@@ -18,8 +18,9 @@
 }
 
 .div-h4-p {
-    padding-top:10vh;
+    padding-top:5vh;
     padding-left: 25vw;
     width: 70em;
     padding-bottom: 10vh;
+    text-align: justify;
 }
